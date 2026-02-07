@@ -10,12 +10,14 @@ Backend implementation of AES encryption from scratch (FIPS-197) with multiple m
 - No cryptographic libraries used
 
 ## Frontend setup:
+```bash
 node -v
 npm -v
 cd frontend
 npm install
 npm install axios
 npm run dev
+```
 
 ## Setup
 ```bash
