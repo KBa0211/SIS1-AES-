@@ -110,7 +110,7 @@ export default function App() {
         </button>
       </div>
 
-      <div className="row">
+      <div className="ciphertext">
         <label>Ciphertext (Hex):</label>
         <textarea
           value={ciphertext}
@@ -121,22 +121,3 @@ export default function App() {
   );
 }
 
-const styles = {
-  container: {
-    maxWidth: 800,
-    margin: "40px auto",
-    display: "flex",
-    flexDirection: "column",
-    gap: 15,
-    fontFamily: "monospace",
-  },
-  row: {
-    display: "flex",
-    gap: 10,
-    alignItems: "center",
-  },
-  buttons: {
-    display: "flex",
-    gap: 10,
-  },
-};
