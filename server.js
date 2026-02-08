@@ -3,8 +3,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const AES = require('./aes');
 const CustomRNG = require('./rng');
+const cors = require('cors');
 
 const app = express();
+app.use(cors()); 
 app.use(bodyParser.json());
 
 // Хелперы для конвертации строк в байты и обратно (Hex)
